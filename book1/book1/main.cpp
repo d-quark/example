@@ -3,8 +3,8 @@
 
 using namespace std;
 
-int main() {
 
+int lol() {
 	string inventory[10];
 	inventory[0] = "dude";
 	inventory[1] = "lol";
@@ -13,5 +13,4 @@ int main() {
 	cout << inventory[1].size() << endl;
 
 	return 0;
-
 }
