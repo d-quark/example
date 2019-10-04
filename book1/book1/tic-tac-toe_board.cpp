@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 
 using namespace std;
 
@@ -22,4 +22,4 @@ int main()
 	cout << "\n'X' wins!";
 	return 0;
 
-}
+}*/

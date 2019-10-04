@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-	enum fields{WORD, HINT, NUM_FIELDS};
+	enum fields{WORD, HINT, NUM_FIELDS}; //uses for better understanding,that is, it's more convenient to see a word instead of just a number such a 0,1... 
 	const int NUM_WORDS = 5;
 	const string WORDS[NUM_WORDS][NUM_FIELDS] =
 	{
@@ -19,12 +19,15 @@ int main()
 	{"labored"," Going slowly, is it?"},
 	{"persistent", "Keep at it."},
 	{"jumble", "It's what the game is all about."}
-	};
+	}; // array for a pair of strings
 
-	srand(static_cast<unsigned int>(time(0))); // ?
+	srand(static_cast<unsigned int>(time(0))); // функция rand сработает один раз, если убрать строчку
+
 	int choice = (rand() % NUM_WORDS);
 	string theWord = WORDS[choice][WORD]; //word to guess
 	string theHint = WORDS[choice][HINT]; //hint for word
+	cout << theWord;
+	cout << HINT;
 
 	string jumble = theWord; //jumbled version of word
 	int length = jumble.size();
@@ -37,4 +40,34 @@ int main()
 		jumble[index2] = temp;
 	}
 
+	cout << "\t\t\tWelcome to Word Jumble!\n\n";  
+	cout << "Unscramble the letters to make a word.\n";
+	cout << "Enter 'hint' for a hint.\n";  
+	cout << "Enter 'quit' to quit the game.\n\n"; 
+	cout << "The jumble is: " << jumble;
+	string guess;   
+	cout << "\n\nYour guess: "; 
+	cin >> guess;
+
+	while ((guess != theWord) && (guess != "quit"))
+	{
+		if (guess == "hint")
+		{
+			cout << theHint;
+		}
+		else
+		{
+			cout << "Sorry, that's not it.";
+		}
+
+		cout << "\n\nYour guess: ";
+		cin >> guess;
+	}
+		if (guess == theWord) 
+		{ 
+			cout << "\nThat's it! You guessed it!\n";
+		}  
+		cout << "\nThanks for playing.\n";  
+		return 0;
+	
 }

@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <string>
 
 using namespace std;
@@ -13,4 +13,4 @@ int lol() {
 	cout << inventory[1].size() << endl;
 
 	return 0;
-}
+}*/
