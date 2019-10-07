@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="heros_inventory2.cpp" />
     <ClCompile Include="tester.cpp" />
     <ClCompile Include="tic-tac-toe_board.cpp" />
     <ClCompile Include="word_jumble.cpp" />
