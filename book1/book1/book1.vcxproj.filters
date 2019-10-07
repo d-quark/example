@@ -27,6 +27,9 @@
     <ClCompile Include="heros_inventory2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="heros_inventory3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tester.h">

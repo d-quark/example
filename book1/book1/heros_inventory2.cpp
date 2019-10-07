@@ -30,12 +30,12 @@ int main()
 	}
 
 	cout << "\nThe item name '" << inventory[0] << "' has ";
-	cout << inventory[0].size << "letters in it.\n";
+	cout << inventory[0].size() << "letters in it.\n";
 
 	cout << "\nYour shield is destroyed in a fierce battle.";
 	inventory.pop_back();
 	cout << "\nYour items:\n";
-	for (unsigned int = 0; i < inventory.size(); ++i)
+	for (unsigned int i = 0; i < inventory.size(); ++i)
 	{
 		cout << inventory[i];
 	}
