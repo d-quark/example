@@ -30,6 +30,9 @@
     <ClCompile Include="heros_inventory3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="high_scores.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tester.h">
