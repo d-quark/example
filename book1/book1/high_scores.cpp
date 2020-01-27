@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
 	vector<int>::const_iterator iter;
-
+	vect
 	cout << "creating a list of scores.";
 	vector<int> scores;
 	scores.push_back(1500);
