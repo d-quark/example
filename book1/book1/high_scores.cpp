@@ -29,6 +29,8 @@ int main()
 	cout << "\nEnter a score to find: ";
 	cin >> score;
 	iter = find(scores.begin(), scores.end(), score);
+	cout << "iter = find is " << *iter << endl;
+
 	if (iter != scores.end())
 	{
 		cout << "Score found.\n";

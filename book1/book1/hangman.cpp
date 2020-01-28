@@ -79,4 +79,6 @@ int main()
 	}
 
 	cout << "\nThe word was " << THE_WORD << endl;
+
+	return 0;
 }
