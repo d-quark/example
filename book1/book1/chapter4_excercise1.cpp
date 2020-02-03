@@ -8,7 +8,7 @@ int main()
 {
 	vector<string> games;
 
-
+	cout << "hello";
 
 
 }
