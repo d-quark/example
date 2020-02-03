@@ -6,7 +6,7 @@ using namespace std;
 
 int main() 
 {
-
+	cout << " hello!";
 	vector<string> games;
 	games.push_back("diablo");
 	vector<string>::iterator myIterator;
