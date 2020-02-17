@@ -8,6 +8,8 @@
     <ClCompile Include="tic-tac-toe_board.cpp" />
     <ClCompile Include="word_jumble.cpp" />
     <ClCompile Include="chapter4_ex1.cpp" />
+    <ClCompile Include="hangman.cpp" />
+    <ClCompile Include="yes_or_no.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tester.h" />
